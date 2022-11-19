@@ -20,3 +20,7 @@ def problem1_3(n):
         print (number,my_sum,)
 
 problem1_3(4)
+print()
+l=[5,6,2,7,2]
+for i in l:
+    print(i,end=' - ')
