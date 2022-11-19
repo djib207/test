@@ -21,6 +21,10 @@ def problem1_3(n):
 
 problem1_3(4)
 print()
-l=[5,6,2,7,2]
+l=[2,5,6,2,7,2,6,6,5,89]
+l2=[]
+
 for i in l:
-    print(i,end=' - ')
+    if i not in l2:
+        l2.append(i)
+        print(i,end=' - ')
