@@ -140,9 +140,9 @@ print('testiing')
 
 def verify_dupl():
    # l = ['ALI', 'med', 'fozia', 'ali', 'MED', 'Ali', 'Hassan']
-    l={10,15,6,4,8,10,4}
+    l={10,15,6,4,8,10,4,88}
     l2=(10,15,7,10,5,7,15)
-    noms={'osman','med','Ali','MED','djama','ALI','med'}
+    noms={'osman','med','Ali','MED','djama','ALI','med','musassasaa'}
     for item in l:
         print(float(item), end=' ')
     print()
@@ -157,7 +157,7 @@ def verify_dupl():
 verify_dupl()
 
 
-noms3 = ['ali','osman', 'med', 'Ali', 'MED', 'djama', 'ALI', 'med','ali','omar',]
+noms3 = ['ali','osman', 'med', 'Ali', 'MED', 'djama', 'ALI', 'med','ali','omar','farah']
 noms4=[]
 print("list without duplicate")
 for item3 in noms3:
