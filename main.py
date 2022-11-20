@@ -159,7 +159,7 @@ verify_dupl()
 
 noms3 = ['ali','osman', 'med', 'Ali', 'MED', 'djama', 'ALI', 'med','ali','omar','farah']
 noms4=[]
-print("list without duplicate")
+print("list of people without duplicate")
 for item3 in noms3:
     item = item3.lower()
 
